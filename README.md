@@ -13,4 +13,4 @@ https://medium.com/flutter-community/s-o-l-i-d-the-first-5-principles-of-object-
 
 #  Python Memory
 
-  https://www.youtube.com/watch?v=F5XRVPioUI8
+  https://www.youtube.com/watch?v=F5XRVPioUI8 dda
