@@ -1,0 +1,12 @@
+Q1. What is devops?
+Ans.  Deveops is culture or practice that is improves the organisational ability to deliver the applications continously.
+Every organisation endgoal is deliver the application.
+Devops is a process of increasing the ability to deliver the application.
+devops is also about automation.
+devops is also about quality & monitoring.
+
+
+devops is the process of improving a delivery and quick manne by ensuring that is propper automation. you have ensured that the quality is in place.you have ensure taht you have setup propper monitoring and you have ensure  that you have a contiues testing.
+
+Q2. Why devops?
+Ans. 

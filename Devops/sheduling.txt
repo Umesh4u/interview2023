@@ -1,0 +1,20 @@
+SEP Target : -
+
+
+  1. Linux
+  2. Git
+  3. Docker
+  4. AWS
+  5. Terraform
+  
+  
+Octomber :
+
+  6. Kubernets
+  7. Project 5 projects
+  
+  
+  
+  Task
+  
+  1. Run django project via docker image (localhost / AWS)

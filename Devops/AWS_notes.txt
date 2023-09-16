@@ -1,0 +1,12 @@
+- I am solving Authentication and authorization proble
+- Ec2- Elastic cloud computing
+computing - The word compute meansyou are requesting to AWS to provide a compute instanse. which is combination of - CPU,RAM,Disk
+technically you are asking to AWS provide a virtual server
+cloud - which is public or private
+Elastic- it is prefix on which service that means we can scalip and scale down those services according to traffic
+-why we use EC2- suppose you are one devops engineer and you can purchase one server from IBM and install hypervioser and by virtualization you can create virtual servers(ec2) for 1000 of request. we can acheive by using shell scripts suppose we can create but there is also need to 1000 of ec2 instanse 1) timely upgrade of versions 2)handle security issues 3) always checking server up or not . basically devops engineer will full day only take care all of these manually it is not productive or not easy
+and if we are using AWS ec2 instanses then we dont worry about manage and maintance all thing it will take care by AWS on large scale.
+- Types of Ec2 instanse - 1)General, 2) Compute optimized, 3)Memory, 4) Storage, 5) Accelerated
+- Security groups and NACL used for aws security
+- Security groups- used for ec2 instanse level security, by default in SG every traffic is blocked except ssh 22 port if you want to allow any traffic you need to configure those ports. and SG in you can only allow traffics you cant deny traffic
+-NACL - used for subnet level it gives security to subnet, by default in NACL 100 rule name set and allow all traffic and * rule name and deny all traffic. there is you can allow traffic and as well deny. rule name is in assesnding order and smallest number rule is applied on subnet and ec2 as well. Suppose you configure 800 port in SG and in NACL 8000 port is deny then NACL rule is applied on both level we can't access 8000 port. and its benifit is you give security all ec2 instanse in particular subnet in one go.
