@@ -149,3 +149,7 @@ select * from employee WHERE salary BETWEEN 200000 and 400000;
 select * from employee WHERE salary in(200000,400000);
 
 
+# Second highest salary
+
+SELECT * FROM `employee` order by salary desc limit 1 offset 1;
+
