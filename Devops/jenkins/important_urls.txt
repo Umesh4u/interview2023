@@ -1,0 +1,58 @@
+
+Will debug the created bots 
+in prepod and prod and investigate 
+which services are running in backend 
+using dynatrace and kibana
+
+
+
+
+1. I have checked all services.
+2. have created the bots in development and prepod environment
+
+
+https://phoenixnap.com/kb/install-jenkins-ubuntu
+
+af318b94603949c2a8b97a3923f0f93f
+
+
+https://www.youtube.com/watch?v=Sl94H5e7MPw
+
+
+
+#/bin/bash
+
+sudo apt-get update
+
+
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+  /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+  
+echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+  https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+  /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+sudo apt-get update
+
+sudo apt-get install jenkins
+
+docker-username =kusumk2992
+docker-password =umesh@143kusum
+
+ptcc ixkx fkim kiqd
+
+
+
+
+
+
+
+sudo usermod -aG docker jenkins
+docker run -d -p 8001:8001 django-app:latest
+
+
+
+
+
+
+Master 34.201.93.177  172.31.28.7

@@ -1,0 +1,47 @@
+Pipeline Steps for deployment of django project:-
+
+1. click on new item  and select pipeline
+2. on new page there is multi checkbox click on "Github project" and paste repo url.
+3. under pipeline select "pipeline script"
+4. and pipeline description box in Add this line- 
+pipeline {
+    agent any
+
+    stages {
+        stage('Github Checkingout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/kusumkumari/django-todo-cicd.git'
+            }
+        }
+        
+        stage('Docker Build') {
+            steps {
+                sh 'docker build -t django-todo-app .'
+            }
+        }
+        
+        stage('Run') {
+            steps {
+                sh 'docker run -d -p 8001:8001 django-todo-app'
+            }
+        }
+        
+    }
+}
+
+Note:- in first stage 'Github checkingout' steps code generated at below "pipeline syntax" link through click on that and enter repo url and branch name and "Generate pipline script" button click 
+
+5. click on "apply" button then "save"
+
+
+AWS setup steps for creating pipeline:-
+
+1. launch ec2 instansce with micro medium
+2. login instance through ssh.
+3. write a command "sudo apt-get update"
+4. install jdk "sudo apt install openjdk-17-jre-headless"
+5. install jenkins
+6. sudo su 
+7. cat /var/lib/jenkins/secrets/initialAdminPassword
+8. sudo apt install docker.io
+9. sudo chmod 777 /var/run/docker.sock
